@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "DMSans-Light";
+  src: url(assets/fonts/DM_Sans/DMSans-Light.ttf) format("truetype");
+  font-weight: 200;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "DMSans-Regular";
+  src: url(assets/fonts/DM_Sans/DMSans-Regular.ttf) format("truetype");
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "DMSans-Medium";
+  src: url(assets/fonts/DM_Sans/DMSans-Medium.ttf) format("truetype");
+  font-weight: 500;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: "DMSans-SemiBold";
+  src: url(assets/fonts/DM_Sans/DMSans-SemiBold.ttf) format("truetype");
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: "DMSans-Bold";
+  src: url(assets/fonts/DM_Sans/DMSans-Bold.ttf) format("truetype");
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: "DMSans-ExtraBold";
+  src: url(assets/fonts/DM_Sans/DMSans-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "DMSans-ExtraLight";
+  src: url(assets/fonts/DM_Sans/DMSans-ExtraLight.ttf) format("truetype");
+  font-weight: 100;
+}
+
+body {
+  font-family: "DMSans-Regular", sans-serif;
 }
