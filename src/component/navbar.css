@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "logo_Font";
+  src: url("../assets/fonts/Agustina/Agutina400.otf") format("woff2");
+}
+
+.logo {
+  font-family: "logo_Font";
+  font-size: 2rem;
+  color: #f1c40f;
+}
+.brecket {
+  font-size: 3.5rem;
+}
