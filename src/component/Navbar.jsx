@@ -2,11 +2,13 @@ import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <div>
-      <p className="logo">
-        <span className="brecket">&lt;</span>Ahmed Raza /
-        <span className="brecket">&gt;</span>
-      </p>
+    <div className="navbar">
+      <p className="main-logo">Ahmed Raza</p>
+      <ul className="nav-links">
+        <li>About</li>
+        <li>Project</li>
+        <li>Contact</li>
+      </ul>
     </div>
   );
 };

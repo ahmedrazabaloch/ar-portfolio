@@ -3,11 +3,48 @@
   src: url("../assets/fonts/Agustina/Agutina400.otf") format("woff2");
 }
 
-.logo {
-  font-family: "logo_Font";
-  font-size: 2rem;
-  color: #f1c40f;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  width: 100%;
+  background-color: #000;
 }
-.brecket {
-  font-size: 3.5rem;
+
+.main-logo {
+  font-family: "logo_Font";
+  font-size: 1.8rem;
+  color: #c9f31d;
+  cursor: pointer;
+  user-select: none;
+  line-height: 3rem;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links > li {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  list-style: none;
+  color: #c9f31d;
+  cursor: pointer;
+  position: relative;
+}
+
+.nav-links > li::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #c9f31d;
+  transition: width 0.3s ease;
+}
+
+.nav-links > li:hover::before {
+  width: 100%;
 }
