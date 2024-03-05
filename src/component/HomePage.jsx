@@ -8,7 +8,7 @@ const HomePage = () => {
         <h1 className="home-heading">HEY, I'M AHMED RAZA</h1>
         <p className="home-paragraph">
           A Result-Oriented Web Developer building and managing Websites and Web
-          Applications that leads to the success of the overall product
+          Applications that leads to the success of the overall product.
         </p>
         <CustomButton value="Projects" className={"home-button"} />
       </div>

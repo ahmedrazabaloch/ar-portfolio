@@ -22,14 +22,14 @@
   margin-bottom: 4rem;
 }
 .home-button {
-  padding: 1rem 2.5rem;
-  font-size: 1.2rem;
+  padding: 1.2rem 4.5rem;
+  font-size: 1.5rem;
   font-weight: 600;
   border: none;
   border-radius: 5px;
   background-color: #c9f31d;
-  color: #141313;
+  color: #000;
   cursor: pointer;
   margin-bottom: 4rem;
-  /* transition: background-color 0.3s ease; */
+  /* transition: all 0.3s ease; */
 }
