@@ -4,10 +4,11 @@
 }
 
 .navbar {
+  position: fixed;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 1.5rem 2rem;
+  align-items: baseline;
+  padding: 1.5rem 2rem 1rem;
   width: 100%;
   background-color: #000;
 }
@@ -18,11 +19,11 @@
   color: #c9f31d;
   cursor: pointer;
   user-select: none;
-  line-height: 3rem;
 }
 
 .nav-links {
   display: flex;
+  padding-right: 2.5rem;
 }
 
 .nav-links > li {

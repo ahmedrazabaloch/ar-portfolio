@@ -1,0 +1,35 @@
+.home-container {
+  color: #fff;
+  background-color: #141313;
+}
+.home-box {
+  height: 100vh;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  margin: auto;
+}
+.home-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+.home-paragraph {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.home-button {
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  background-color: #c9f31d;
+  color: #141313;
+  cursor: pointer;
+  margin-bottom: 4rem;
+  /* transition: background-color 0.3s ease; */
+}
