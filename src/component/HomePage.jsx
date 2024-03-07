@@ -1,5 +1,5 @@
 import CustomButton from "./CustomButton";
-import "./homepage.css";
+import "./homePage.scss";
 
 const HomePage = () => {
   return (
